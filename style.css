@@ -21,6 +21,9 @@ body {
   padding: 8.2em 0 0;
   font: 10px/1 Helvetica, Arial, clean, sans-serif;
   color: #333; }
+  @media screen and (max-width: 540px) {
+    body {
+      padding: 5.4em 0 0; } }
 
 /*#tumblr_controls {
 	display: none !important;
@@ -36,19 +39,22 @@ header {
   -webkit-font-smoothing: antialiased; }
   header nav {
     position: relative;
-    margin: 0 72px 6.4em; }
+    margin: 0 72px 5.4em; }
+    @media screen and (max-width: 540px) {
+      header nav {
+        margin: 0 42px 5.4em; } }
   header h1 {
     font-size: 300%;
     text-transform: uppercase;
     letter-spacing: .1em;
     color: #444; }
   header ul {
-    margin: 3.6em -24px;
+    margin: 2.4em -24px;
     list-style: none; }
     header ul li {
       display: inline-block;
       font-size: 160%;
-      margin: 0 20px; }
+      margin: .75em 20px; }
       header ul li a {
         color: #aaabab;
         padding: 0 4px;
@@ -80,6 +86,9 @@ section {
   padding: 0 72px 6em;
   position: relative;
   -webkit-font-smoothing: antialiased; }
+  @media screen and (max-width: 540px) {
+    section {
+      padding: 0 42px 6em; } }
   section h2 {
     float: left;
     padding: .25em 0 0;
