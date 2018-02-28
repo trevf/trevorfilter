@@ -91,6 +91,30 @@ header {
 				color: #555;
 			}
 
+			a[data-rel="twitter"]:hover{ 
+				color: #1ba1f1;
+			}
+
+			a[data-rel="foursquare"]:hover{ 
+				color: #f94877;
+			}
+
+			a[data-rel="instagram"]:hover{ 
+				color: #4e08c3;
+			}
+
+			a[data-rel="pinboard"]:hover{ 
+				color: #2148f3;
+			}
+
+			a[data-rel="letterboxd"]:hover{ 
+				color: #6c3;
+			}
+
+			a[data-rel="goodreads"]:hover{ 
+				color: #ff9903;
+			}
+
 		}
 
 	}
