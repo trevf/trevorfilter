@@ -1,0 +1,176 @@
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, pre,
+blockquote, a, abbr, acronym, address, cite, code, del, em, img,
+ins, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset,
+form, input, button, label, legend, table, caption, tr, th, td,
+header, nav, section, article, aside, details, figure, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+header, nav, section, article, aside, details, figure, footer {
+  display: block; }
+
+body {
+  background: #f4f5f5;
+  padding: 8.2em 0 0;
+  font: 10px/1 Helvetica, Arial, clean, sans-serif;
+  color: #333; }
+
+/*#tumblr_controls {
+	display: none !important;
+}*/
+.wf-loading h1, .wf-loading h2, .wf-loading p, .wf-loading a {
+  opacity: 0; }
+
+.wf-active h1, .wf-active h2, .wf-active p, .wf-active a {
+  opacity: 1; }
+
+header {
+  width: 100%;
+  -webkit-font-smoothing: antialiased; }
+  header nav {
+    position: relative;
+    margin: 0 72px 6.4em; }
+  header h1 {
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #444; }
+  header ul {
+    margin: 3.6em -24px;
+    list-style: none; }
+    header ul li {
+      display: inline-block;
+      font-size: 160%;
+      margin: 0 20px; }
+      header ul li a {
+        color: #aaabab;
+        padding: 0 4px;
+        -webkit-transition: color 0.15s ease-out;
+        -moz-transition: color 0.15s ease-out;
+        -ms-transition: color 0.15s ease-out;
+        -o-transition: color 0.15s ease-out;
+        transition: color 0.15s ease-out; }
+      header ul li a:hover {
+        color: #555; }
+  header a {
+    text-decoration: none;
+    color: #444; }
+
+a {
+  text-decoration: none;
+  color: #444; }
+
+body#activity a[data-rel=activity] {
+  color: #333; }
+
+body#blog a[data-rel=blog] {
+  color: #333; }
+
+.hide {
+  display: none !important; }
+
+section {
+  padding: 0 72px 6em;
+  position: relative;
+  -webkit-font-smoothing: antialiased; }
+  section h2 {
+    float: left;
+    padding: .25em 0 0;
+    display: inline-block;
+    font-size: 160%;
+    display: none; }
+  section p {
+    max-width: 30em;
+    margin: 0 0 1em;
+    font-size: 160%;
+    line-height: 1.875;
+    color: #aaabab; }
+
+#key {
+  margin-bottom: -1em;
+  padding: 2.4em 60px 2.4em 60px;
+  text-align: justify; }
+  #key p {
+    display: inline-block;
+    width: .3846em;
+    font-size: 130%;
+    text-align: center;
+    color: #b9baba; }
+    #key p span {
+      display: block;
+      width: 1em;
+      margin-left: -.3077em; }
+    #key p b {
+      font-weight: normal;
+      color: #979899; }
+
+section .chart {
+  text-align: justify; }
+  section .chart a {
+    display: inline-block;
+    font-size: 130%;
+    width: .3846em;
+    text-align: center; }
+    section .chart a span {
+      background: rgba(255, 255, 255, 0.75);
+      position: relative;
+      display: block;
+      width: 1em;
+      margin-left: -.3077em;
+      text-align: center; }
+      section .chart a span div {
+        background: rgba(0, 170, 232, 0.85);
+        display: inline-block;
+        position: absolute;
+        width: 10em;
+        height: 10em;
+        margin: -5em 5em 5em -5em;
+        border-radius: 200px;
+        z-index: 95; }
+  section .chart a.rad0 div {
+    -webkit-transform: scale(0, 0); }
+  section .chart a.rad1 div {
+    -webkit-transform: scale(0.1, 0.1); }
+  section .chart a.rad2 div {
+    -webkit-transform: scale(0.1414, 0.1414); }
+  section .chart a.rad3 div {
+    -webkit-transform: scale(0.1732, 0.1732); }
+  section .chart a.rad4 div {
+    -webkit-transform: scale(0.2, 0.2); }
+  section .chart a.rad5 div {
+    -webkit-transform: scale(0.2236, 0.2236); }
+  section .chart a.rad6 div {
+    -webkit-transform: scale(0.2449, 0.2449); }
+  section .chart a.rad7 div {
+    -webkit-transform: scale(0.2646, 0.2646); }
+  section .chart a.rad8 div {
+    -webkit-transform: scale(0.2828, 0.2828); }
+  section .chart a.rad9 div {
+    -webkit-transform: scale(0.3, 0.3); }
+
+.axis {
+  position: relative;
+  display: inline-block;
+  top: -1em;
+  width: 100%;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+  z-index: 5; }
+
+#key:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  line-height: 0; }
+
+#tweets h2 a {
+  color: #00aced; }
+
+/* Mixins */
