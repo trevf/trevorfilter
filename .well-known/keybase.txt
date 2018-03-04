@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/trev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://trevorfilter.com
+  * I am trev (https://keybase.io/trev) on keybase.
+  * I have a public key with fingerprint 66DF D07F 317B 1278 3A77  8575 FBC5 B38D 9111 0B56
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "66dfd07f317b12783a778575fbc5b38d91110b56",
+            "host": "keybase.io",
+            "key_id": "fbc5b38d91110b56",
+            "uid": "56855870862a20015c214ef10996a100",
+            "username": "trev"
+        },
+        "service": {
+            "hostname": "trevorfilter.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1405359327,
+    "expire_in": 157680000,
+    "prev": "d3b3e0a6b4bd53f9ca8a8471743ec84e8f6869befa02c2359fc49bd439fcc189",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.23
+Comment: https://keybase.io/crypto
+
+yMHqAnicbZFdSBRfGMZ3tUyltSjXKErhrBFsYjM7Xx/8ywuxD8UotJTIlvk4sw6r
+M+vs7G6bColhYcSaZEmQZmVGGmj/2AtFsLQCFUJJL6RoJaGbLsqSLgzyjBR00bk5
+Z5739zzvO7wTjmRbuj3nSm5vR0Hkk31qbDlkK5vI/FAPRF2OAr4e+OH6paiaDxoB
+Q9VMwAOalhUZYxQCZ0Tcw7CEwDAsxVCKKFEiwcocjuOYSNEgD1TrQcuBYkQhCPNV
+HWnow6vKSP0HH1ovUDRLUSyDsbRH8GAYTkkenIQKjnEcLeAYZoFBaGhCLUS0acAw
+aMwDSAmrElLq19v+VdUNRa0xoZEv6bXIGzB0U5f0GlStNs1AkLfcZjRg4REoen8H
+eUVVk9GPI0cYGkFV1wCPI1IyVSsZJzGKoDjCw+QBeD6gGtCrWgTF0CyGjtUHDcYD
+mRAJiAm0SIoyRSicJLACSzI4QxJQYknIKjRLcyJUBMwjeVCkIpGcKJMEekg4y6H+
+QVin6YAn0JiCD0UGVZ8mmCEDgsYXY2c32OzptpSNSdbqbOlpW/8s9N7Spl91Ky3D
+w7vulDtfvo5klb93dG7vJ0u8tgeTV7uPUyO32jOK75Yuui8p9w/5uvfIhTl8y9fC
+M0WDA22OZGIJTsWE6XnJOe+wNySlbll95e7riG+ragqPxrMv+kPjYz865rIrGsGx
+5tqDm693XTAO+PumK+Q3J6SjqbHRrNmUR50zP2MlxU/3T/nSToYTqz3NE5PPpq/N
+Ht43c3tna13iW1nBTOkXObEifJwb+u+mO/ow4uoa/x5fOLL8ZGTvbJfzeUvhUG9R
+62Bbgl7o0c41uP7nwecdsYHou6HF4dz4XJmr/XJlMW04m07jkpFZmcGk3XCf6gdV
+4ZiL3/3Y/3YN9cIQRA==
+=scFu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/trev
+
+==================================================================
